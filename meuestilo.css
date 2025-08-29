@@ -50,3 +50,25 @@ h2 {
 #tituloPrincipal{
     font-size: 60px;
 }
+
+
+
+
+
+.thunder:hover{
+    max-width: 600px;
+    background-color: rgb(255, 24, 8);
+}
+
+
+.thunder {
+    height: 200px; /* control the size */
+    aspect-ratio: 0.56;
+    clip-path: polygon(100% 0, 23% 46%, 46% 44%, 15% 69%, 38% 67%, 0 100%, 76% 57%, 53% 58%, 88% 33%, 60% 37%);
+    background: #000000;
+
+    .thunder:hover {
+    max-width: 990px;
+    background-color: rgb(238, 23, 8);
+}
+}
