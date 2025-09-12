@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1 id="titulo">Bem vindo ao blog</h1>
+        <h3 class="subtitulo">Esse é o blog do flamengo</h3>
+        <h3 class="subtitulo">O maior do Rio</h3>
+        <button id="botaoAlerta">Clica aqui</button>
+        <script>
+            const titulo = document.getElementById("titulo");
+            titulo.innerText = "ARRASCAETA";
+            const subtitulos = document.querySelectorAll(".subtitulo");
+            subtitulos.forEach( elemento => {
+                elemento.style.color = "red";
+            });
+
+            const alerta = () => {
+                alert("O botão foi pressionado!");
+                document.getElementById("titulo").innerText = "CAMISA 10";
+            };
+
+            const botao = document.getElementById("botaoAlerta");
+            botao.onclick = alerta;
+        </script>
+    </body>
+</html>,
