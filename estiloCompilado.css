@@ -1,0 +1,75 @@
+.fundo-red {
+  background-color: red;
+}
+
+.fundo-blue {
+  background-color: blue;
+}
+
+.fundo-yellow {
+  background-color: yellow;
+}
+
+.fundo-green {
+  background-color: green;
+}
+
+.fundo-gray {
+  background-color: gray;
+}
+
+h1 {
+  background-color: rgb(255, 0, 0);
+  font-size: 64px;
+}
+
+h2 {
+  background-color: rgb(255, 0, 0);
+  font-size: 32px;
+}
+
+h3 {
+  background-color: rgb(255, 0, 0);
+  font-size: 26px;
+}
+
+.principal {
+  border: 2px solid rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.item-1 {
+  font-size: 16px;
+}
+
+.item-2 {
+  font-size: 18px;
+}
+
+.item-3 {
+  font-size: 20px;
+}
+
+.item-4 {
+  font-size: 22px;
+}
+
+.item-5 {
+  font-size: 24px;
+}
+
+.especial {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.importante, .importante-sublinhado {
+  color: rgb(20, 0, 0);
+  font-size: 20px;
+}
+
+.importante-sublinhado {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estiloCompilado.css.map */

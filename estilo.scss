@@ -1,0 +1,60 @@
+$cor-principal: rgb(255, 0, 0);
+$tamanho-letra: 32px;
+
+$cores: red, blue,yellow,green,gray;
+
+@each $cor in $cores {
+  .fundo-#{$cor} {
+    background-color: $cor;
+  }
+}
+
+
+h1{
+  background-color: $cor-principal;
+  font-size: $tamanho-letra*2;
+}
+
+h2 {
+    background-color: $cor-principal;
+    font-size: $tamanho-letra;
+}
+
+h3 {
+    background-color: $cor-principal;
+    font-size: $tamanho-letra - 6;
+}
+
+.principal{
+  border:2px solid rgb(0, 0, 0);
+   text-decoration: underline;
+}
+@for $i from 1 through 5 {
+  .item-#{$i} {
+    font-size:14px+2*$i;
+  }
+}
+
+@mixin destaque {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.especial {
+  @include destaque();
+}
+
+@mixin outroDestaque ($importancia:1 ){
+color: rgb($importancia*20,0,0);
+font-size: 20px * $importancia;
+
+}
+
+.importante {
+  @include outroDestaque
+}
+
+.importante-sublinhado {
+  @extend .importante;
+  text-decoration: underline;
+}
