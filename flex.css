@@ -1,0 +1,28 @@
+html {
+    font-size: 12px;
+}
+
+
+h1{
+    border: 2px black solid;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.pai {
+    font-size: 30px;
+    background-color: rgba(80, 78, 78, 0.227);
+    width: 50vw;
+    height: 50vh;
+}
+
+.filho {
+    font-size: 0.5em;
+    width: 80ch;
+    background-color: rgba(68, 67, 67, 0.456);
+}
